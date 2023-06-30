@@ -1,0 +1,33 @@
+.get-container {
+    padding: 1.5rem;
+    width: 100%;
+
+}
+
+.get-inner-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    background: rgb(176, 205, 248);
+    padding: 2rem;
+    border-radius: 10px;
+    border: 6px solid rgb(155, 190, 255);
+    text-align: center;
+}
+
+.get-inner-cont .primaryText {
+    color: rgb(20, 1, 62);
+    font-weight: 600;
+}
+
+.get-inner-cont .secondaryText {
+    color: rgb(44, 3, 132);
+} 
+
+.get-inner-cont button {
+    border: 2px solid white;
+    box-shadow: white;
+    border-radius: 10px;
+}

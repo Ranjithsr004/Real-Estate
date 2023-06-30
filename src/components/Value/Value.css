@@ -1,0 +1,84 @@
+.value-container {
+    padding: 1.5rem;
+    width: 100%;
+    display: flex;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.value-img-container {
+    border: 8px solid rgb(232, 232, 232 / 93%);
+
+}
+
+
+.value-container>div {
+    flex: 1;
+}
+
+.value-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: .5rem;
+}
+
+
+.icon {
+    display: flex;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    background: #eeeeff;
+    border-radius: 5px;
+}
+.icon svg {
+    fill:rgb(57, 57, 249)
+}
+.accordion {
+    margin-top: 2rem;
+    border: none;
+}
+.accordionItem {
+    background: white;
+    border: 0.8px solid rgba(128, 128, 128, 0.143);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.accordionButton {
+    display: flex;
+    row-gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: white;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.accordionButton .primaryText {
+    font-size: 1.1rem;
+}
+
+@media (max-width:1024px) {
+    .value-container {
+        flex-direction: column;
+    }
+    @media (max-width:768px) {
+        .accordionButton .primaryText {
+            font-size: 1rem;
+        }
+        .accordionPanel .secondaryText {
+            font-size: 0.8rem;
+        }
+        
+    }
+}

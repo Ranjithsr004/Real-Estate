@@ -1,0 +1,38 @@
+[
+    {
+      "name": "Ayangar Avenue",
+      "price": "47,50,000",
+      "detail": "3BHK with car parking area, 145 Ashok Nagar, Chennai",
+      "image": "./home1.png"
+    },
+    {
+      "name": "Jayam Garden",
+      "price": "60,30,000",
+      "detail": "2 Floor with 4BHK with car parking area, 13 Jayam street Perundurai, Erode",
+      "image": "./home2.png"
+    },
+    {
+      "name": "Ranjith Vila",
+      "price": "1,00,35,800",
+      "detail": "2 Floor with 4BHK, Swimming pool and car parking area, 3/14 Unjalur, Erode",
+      "image": "./home3.png"
+    },
+    {
+      "name": "Kaveri Garden",
+      "price": "35,00,000",
+      "detail": "2BHK with car parking area, 13th street Kaveri Nagar, Erode",
+      "image": "./home4.png"
+    },
+    {
+      "name": "RK Houses",
+      "price": "55,00,300",
+      "detail": "3BHK Beach view with car parking area, 24/1 Teachers Colony, Coimbatore",
+      "image": "./home5.png"
+    },
+    {
+      "name": "Keerthi Groups",
+      "price": "60,50,000",
+      "detail": "4BHK Swimming pool with car parking area, 6/27,Varuthampatty, Sangagiri, Salem",
+      "image": "./home6.png"
+    }
+  ]
